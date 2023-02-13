@@ -18,13 +18,13 @@ It is based on the 'libobjc2' project and doesn't require the GNUstep libraries.
 
 ## Create a "main.m" file
 
-#include <stdio.h>
-int main() {
-    @autoreleasepool {
-         printf("Hola món\n");
+    #include <stdio.h>
+    int main() {
+        @autoreleasepool {
+            printf("Hola món\n");
+        }
+        return 0;
     }
-    return 0;
-}
 
 ## Compile and run
 
